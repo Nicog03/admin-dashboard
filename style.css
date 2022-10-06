@@ -94,6 +94,7 @@ a {
     height: 45px;
     width: 45px;
     border-radius: 50%;
+    border: black solid 2px;
 }
 
         /* ------------------ BOTTOM HEADER SECTION ------------------ */
@@ -227,4 +228,24 @@ a {
 .trending-content {
     display: flex;
     gap: 15px;
+}
+
+.trending-content:nth-child(1) .profile-picture {
+    background-image: url(profile-pictures/profile1.png);
+    background-size: contain;
+}
+
+.trending-content:nth-child(3) .profile-picture{
+    background-image: url(profile-pictures/profile2.png);
+    background-size: contain;
+}
+
+.trending-content:nth-child(5) .profile-picture{
+    background-image: url(profile-pictures/profile3.png);
+    background-size: contain;
+}
+
+.trending-content:nth-child(7) .profile-picture{
+    background-image: url(profile-pictures/profile4.png);
+    background-size: contain;
 }
