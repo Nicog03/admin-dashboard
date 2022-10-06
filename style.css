@@ -18,6 +18,10 @@ body {
     max-height: fit-content;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* ------------------ NAV BAR ------------------ */
 
 .nav-bar {
@@ -49,7 +53,7 @@ a {
     gap: 25px;
 }
 
-/* ------------------ TOP HEADER SECTION ------------------ */
+        /* ------------------ TOP HEADER SECTION ------------------ */
 
 
 .top-header-section {
@@ -87,7 +91,7 @@ a {
     border-radius: 50%;
 }
 
-/* ------------------ BOTTOM HEADER SECTION ------------------ */
+        /* ------------------ BOTTOM HEADER SECTION ------------------ */
 
 .bottom-header-section {
     display: flex;
@@ -102,7 +106,7 @@ a {
     cursor: pointer;
 }
 
-.button-section {
+.bottom-header-section .button-section {
     display: flex;
     gap: 30px;
 }
@@ -124,16 +128,68 @@ a {
 
 /* ------------------ MAIN ------------------ */
 
-
 .main {
     display: grid;
     grid-template: 1fr 1fr / 3fr 1fr;
 }
 
+/* ------------------ CONTENT ------------------ */
+
 .content {
+    padding: 20px;
     background-color: #a1a1a1;
     grid-row: 1 / -1;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template: minmax(min-content, max-content) repeat(3, 1fr) / 1fr 1fr;
 }
+
+.content button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    background-color: white;
+}
+
+.content button:active > img {
+    filter: opacity(100%)
+}
+
+.content img {
+    height: 100%;
+    filter: opacity(50%);
+    transition: ease-out 0.3s;
+}
+
+.content h2 {
+    grid-column: 1 / -1;
+    align-self: flex-end;
+}
+
+
+.project {
+    background-color: white;
+    display: grid;
+    grid-template-rows: minmax(min-content, max-content) 1fr minmax(min-content, max-content);
+    border: black solid 3px;
+    padding: 15px;
+    box-shadow: black 3px 3px;
+}
+
+.project p {
+    color: #505050;
+}
+
+.project .button-section {
+    align-self: flex-end;
+    justify-self: flex-end;
+    display: flex;
+    gap: 10px;
+}
+
+/* ------------------ ANNOUNCEMENTS ------------------ */
 
 .announcements {
 background-color: #838383;
