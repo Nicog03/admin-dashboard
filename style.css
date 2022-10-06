@@ -7,6 +7,11 @@
     font-family: 'Shippori Antique', sans-serif;
 }
 
+*::selection {
+    background-color: black;
+    color: white;
+}
+
 img {
     height: 30px;
 }
@@ -84,7 +89,7 @@ a {
     height: 35px;
 }
 
-.top-header-section .profile-picture {
+.profile-picture {
     background-color: grey;
     height: 45px;
     width: 45px;
@@ -189,12 +194,37 @@ a {
     gap: 10px;
 }
 
-/* ------------------ ANNOUNCEMENTS ------------------ */
+/* ------------------ ANNOUNCEMENTS AND TRENDING ------------------ */
 
-.announcements {
-background-color: #838383;
+.announcements, .trending {
+    background-color: #838383;
+    display: grid;
+    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
+    gap: 20px;
+    padding: 20px;
 }
+
+.announcement-card, .trending-card {
+    background-color: white;
+    border: black solid 3px;
+    box-shadow: black 3px 3px;
+    display: grid;
+    gap: 5px;
+    padding: 5px;
+}
+
+.announcement-card hr {
+    border: #b0b0b0 solid 1.8px
+}
+
+/* ------------------ TRENDING ------------------ */
+
 
 .trending {
     background-color: #626262;
+}
+
+.trending-content {
+    display: flex;
+    gap: 15px;
 }
