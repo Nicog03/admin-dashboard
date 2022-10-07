@@ -139,7 +139,7 @@ a {
     grid-template: 1fr 1fr / 3fr 1fr;
 }
 
-/* ------------------ CONTENT ------------------ */
+        /* ------------------ CONTENT ------------------ */
 
 .content {
     padding: 20px;
@@ -147,8 +147,7 @@ a {
     grid-row: 1 / -1;
     display: grid;
     gap: 15px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template: minmax(min-content, max-content) repeat(3, 1fr) / 1fr 1fr;
+    grid-template-rows: minmax(min-content, max-content) 1fr;
 }
 
 .content button {
@@ -174,6 +173,11 @@ a {
     align-self: flex-end;
 }
 
+.projects-grid {
+    display: grid;
+    grid-template: repeat(auto-fit, minmax(190px, 1fr)) / repeat(auto-fit, minmax(190px, 1fr));
+    gap: 15px
+}
 
 .project {
     background-color: white;
