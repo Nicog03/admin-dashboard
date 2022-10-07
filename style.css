@@ -27,6 +27,28 @@ button {
     cursor: pointer;
 }
 
+i {
+    justify-self: center;
+}
+
+a {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    transition: ease-out 0.3s;
+}
+
+.nav-bar nav:nth-child(2) ul li:first-child a {
+    background-color: black;
+    color: white;
+}
+
+a:hover {
+    background-color: #d1d1d1;
+}
+
 /* ------------------ NAV BAR ------------------ */
 
 .nav-bar {
