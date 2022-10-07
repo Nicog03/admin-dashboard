@@ -132,6 +132,18 @@ a {
     padding: 5px 20px;
     border: black solid 3px;
     cursor: pointer;
+    position: relative;
+}
+
+.bottom-header-section button[type='button']:hover {
+    box-shadow: black 1px 1px, 2px 2px, 3px 3px;
+    
+}
+
+.bottom-header-section button[type='button']:active {
+    box-shadow: none;
+    top: 5px;
+    left: 5px;
 }
 
 .bottom-header-section .button-section {
@@ -158,7 +170,7 @@ a {
     border: black solid 3px;
     padding: 7px;
     background-color: white;
-    box-shadow: black 3px 3px;
+    box-shadow: black 1px 1px, 2px 2px, 3px 3px;
 }
 
 .header-profile-picture, .header .profile-picture {
@@ -220,7 +232,7 @@ a {
     grid-template-rows: minmax(min-content, max-content) 1fr minmax(min-content, max-content);
     border: black solid 3px;
     padding: 15px;
-    box-shadow: black 3px 3px;
+    box-shadow: black 1px 1px, 2px 2px, 3px 3px;
 }
 
 .project p {
@@ -247,7 +259,7 @@ a {
 .announcement-card, .trending-card {
     background-color: white;
     border: black solid 3px;
-    box-shadow: black 3px 3px;
+    box-shadow: black 1px 1px, 2px 2px, 3px 3px;
     display: grid;
     gap: 5px;
     padding: 5px;
@@ -288,3 +300,6 @@ a {
     background-image: url(profile-pictures/profile4.png);
     background-size: contain;
 }
+
+<!-- HTML !-->
+<button class="button-54" role="button">Button 54</button>
