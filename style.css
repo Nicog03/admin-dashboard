@@ -140,8 +140,8 @@ a {
 }
 
 .header-profile-picture {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     background-color: grey;
     border-radius: 50%;
 }
@@ -153,6 +153,19 @@ a {
 .bottom-header-section h2 {
     font-size: 1.8em;
 } 
+
+.bottom-header-section .profile-section {
+    border: black solid 3px;
+    padding: 7px;
+    background-color: white;
+    box-shadow: black 3px 3px;
+}
+
+.header-profile-picture, .header .profile-picture {
+    background-image: url(/profile-pictures/main-profile-picture.png);
+    background-size: contain;
+    border: black solid 2px;
+}
 
 /* ------------------ MAIN ------------------ */
 
