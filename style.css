@@ -204,7 +204,7 @@ a {
         /* ------------------ CONTENT ------------------ */
 
 .content {
-    padding: 20px;
+    padding: 10px 0px 10px 10px;
     background-color: #a1a1a1;
     grid-row: 1 / -1;
     display: grid;
@@ -238,7 +238,9 @@ a {
 .projects-grid {
     display: grid;
     grid-template: repeat(auto-fit, minmax(190px, 1fr)) / repeat(auto-fit, minmax(190px, 1fr));
-    gap: 15px
+    gap: 15px;
+    overflow-y: scroll;
+    padding-right: 20px;
 }
 
 .project {
