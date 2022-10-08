@@ -250,7 +250,18 @@ a {
     padding: 0;
     margin: 0;
     height: 30px;
+    width: 30px;
     background-color: white;
+}
+
+.content button:active i {
+    color: black;
+    
+}
+
+.content i {
+    font-size: 1.7em;
+    color: #6b6b6b;
 }
 
 .content h2 {
@@ -282,8 +293,10 @@ a {
 .project .button-section {
     align-self: flex-end;
     justify-self: flex-end;
-    display: flex;
-    gap: 10px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: center;
 }
 
 /* ------------------ ANNOUNCEMENTS AND TRENDING ------------------ */
