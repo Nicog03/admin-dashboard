@@ -74,6 +74,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    border-bottom: black solid 3px;
 }
 
         /* ------------------ TOP HEADER SECTION ------------------ */
@@ -84,6 +85,7 @@ a {
     align-items: center;
     justify-content: space-between;
     margin: 0 20px;
+    gap: 10px
 }
 
 .top-header-section i {
@@ -172,6 +174,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .bottom-header-section button[type='button'] {
@@ -195,7 +198,8 @@ a {
 
 .bottom-header-section .button-section {
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
+    gap: max(15px, 2vw);
 }
 
 .bottom-header-section .profile-picture {
@@ -329,9 +333,6 @@ hr {
 }
 
 /* ------------------ TRENDING ------------------ */
-
-
-
 
 .trending {
     background-color: #626262;
