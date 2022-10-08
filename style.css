@@ -118,15 +118,45 @@ a {
 }
 
 .profile-section {
-    display: flex;
-    gap: 15px;
+    display: grid;
+    grid-auto-flow: column;
     align-items: center;
+    gap: 10px;
     background-color: white;
     border: black solid 3px;
-    padding: 7px;
     box-shadow: black 1px 1px, 2px 2px, 3px 3px;
 }
 
+.top-header-section .profile-section button[type='button'] {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-right: black solid 3px;
+    position: relative;
+    background-color: white;
+}
+
+.top-header-section .profile-section button[type='button']:hover {
+    background-color: #c6c6c6;
+    cursor: pointer;
+}
+
+.top-header-section .profile-section button[type='button']:active {
+    background-color: black;
+}
+
+.top-header-section .profile-section button[type='button']:active i {
+    color: white;
+}
+
+.profile-section > *:not(.profile-picture) {
+    padding: 5px;
+}
+
+.profile-section > div {
+    margin: 5px 0px 5px;
+}
 
 .profile-picture {
     background-color: grey;
@@ -168,7 +198,7 @@ a {
     gap: 30px;
 }
 
-.header-profile-picture {
+.bottom-header-section .profile-picture {
     height: 60px;
     width: 60px;
     background-color: grey;
@@ -184,10 +214,7 @@ a {
 } 
 
 .bottom-header-section .profile-section {
-    border: black solid 3px;
     padding: 7px;
-    background-color: white;
-    box-shadow: black 1px 1px, 2px 2px, 3px 3px;
 }
 
 .header-profile-picture, .header .profile-picture {
