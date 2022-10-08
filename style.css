@@ -12,10 +12,6 @@
     color: white;
 }
 
-img {
-    height: 30px;
-}
-
 body {
     display: grid;
     grid-template: minmax(min-content, max-content) 4fr / 1fr 5fr;
@@ -90,11 +86,35 @@ a {
     margin: 0 20px;
 }
 
+.top-header-section i {
+    font-size: 1.5em;
+}
+
 .search-section {
     display: flex;
     align-items: center;
     gap: 15px;
     flex: 1
+}
+
+.search-section input[type='text'] {
+    background-color: white;
+    border: black solid 3px;
+    flex: 1;
+    max-width: 30vw;
+    height: 35px;
+    font-size: 1.1em;
+    padding-left: 5px;
+}
+
+.search-section input[type='text']:hover {
+    background-color: #e2e1e1;
+}
+
+.search-section input[type='text']:focus-visible {
+    box-shadow: black 1px 1px, 2px 2px, 3px 3px;
+    border: black solid 4px;
+    outline: none;
 }
 
 .profile-section {
@@ -107,24 +127,6 @@ a {
     box-shadow: black 1px 1px, 2px 2px, 3px 3px;
 }
 
-.profile-section img:hover {
-    cursor: pointer;
-    padding: 1px;
-}
-
-.profile-section img:active {
-    background-color: white;
-    border: black solid 2px;
-    filter: invert();
-}
-
-.top-header-section input[type='text'] {
-    background-color: white;
-    border: black solid 3px;
-    flex: 1;
-    max-width: 30vw;
-    height: 35px;
-}
 
 .profile-picture {
     background-color: grey;
