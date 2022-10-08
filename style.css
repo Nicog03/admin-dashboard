@@ -253,16 +253,6 @@ a {
     background-color: white;
 }
 
-.content button:active > img {
-    filter: opacity(100%)
-}
-
-.content img {
-    height: 100%;
-    filter: opacity(50%);
-    transition: ease-out 0.3s;
-}
-
 .content h2 {
     grid-column: 1 / -1;
     align-self: flex-end;
