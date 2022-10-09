@@ -85,6 +85,7 @@ a {
     flex-direction: column;
     gap: 25px;
     border-bottom: black solid 3px;
+    backdrop-filter: invert(98%);
 }
 
         /* ------------------ TOP HEADER SECTION ------------------ */
@@ -105,8 +106,15 @@ a {
 .search-section {
     display: flex;
     align-items: center;
-    gap: 15px;
     flex: 1
+}
+
+.search-section label {
+    background-color: transparent;
+    backdrop-filter: invert() blur(1px);
+    height: 100%;
+    padding: 2px;
+    border: black solid 3px;
 }
 
 .search-section input[type='text'] {
@@ -134,9 +142,9 @@ a {
     grid-auto-flow: column;
     align-items: center;
     gap: 10px;
-    background-color: white;
     border: black solid 3px;
     box-shadow: black 1px 1px, 2px 2px, 3px 3px;
+    backdrop-filter: invert() blur(2px);
 }
 
 .top-header-section .profile-section button[type='button'] {
@@ -146,16 +154,16 @@ a {
     border: none;
     border-right: black solid 3px;
     position: relative;
-    background-color: white;
+    background-color: transparent;
 }
 
 .top-header-section .profile-section button[type='button']:hover {
-    background-color: #c6c6c6;
+    backdrop-filter: invert(20%);
     cursor: pointer;
 }
 
 .top-header-section .profile-section button[type='button']:active {
-    background-color: black;
+backdrop-filter: invert();
 }
 
 .top-header-section .profile-section button[type='button']:active i {
@@ -193,23 +201,27 @@ a {
     border: black solid 3px;
     cursor: pointer;
     position: relative;
+    box-shadow: black 1px 1px, 2px 2px, 3px 3px;
 }
 
 .bottom-header-section button[type='button']:hover {
-    box-shadow: black 1px 1px, 2px 2px, 3px 3px;
-    
+    background-color: #cccccc;
 }
 
 .bottom-header-section button[type='button']:active {
+    background-color: black;
+    color: white;
     box-shadow: none;
-    top: 5px;
-    left: 5px;
+    top: 3px;
+    left: 3px;
 }
 
 .bottom-header-section .button-section {
     display: flex;
     justify-content: space-between;
     gap: max(15px, 2vw);
+    backdrop-filter: invert() blur(2px);
+    padding: 10px;
 }
 
 .bottom-header-section .profile-picture {
