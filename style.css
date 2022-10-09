@@ -77,7 +77,8 @@ a {
 /* ------------------ HEADER ------------------ */
 
 .header {
-    background-color: #c6c6c6;
+    background-image: url(/imgs/topography.jpg);
+    background-size: cover;
     padding: 20px;
     display: flex;
     flex-direction: column;
