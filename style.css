@@ -30,12 +30,10 @@ i {
 }
 
 a {
-    display: grid;
-    grid-template-columns: 20px 1fr;
-    align-items: center;
-    gap: 10px;
-    padding: 5px;
+    
     transition: ease-out 0.3s;
+    text-decoration: none;
+    color:black
 }
 
 /* ------------------ NAV BAR ------------------ */
@@ -54,7 +52,7 @@ a {
     background-color: rgb(21, 21, 21);
 }
 
-a:hover {
+.nav-bar a:hover {
     background-color: #222222;
 }
 
@@ -71,9 +69,13 @@ h1::selection {
     color: white;
 }
 
-a {
-    text-decoration: none;
+.nav-bar a {
     color: white;
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;               
 }
 
 /* ------------------ HEADER ------------------ */
@@ -356,7 +358,7 @@ hr {
     border: #b0b0b0 solid 1.8px
 }
 
-.single-announcement:hover, .trending-content:hover {
+.trending-content:hover {
     background-color: #d9d9d9;
     cursor: pointer;
 }
@@ -365,9 +367,20 @@ hr {
     padding: 5px;
 }
 
-.single-announcement:hover {
-    background-color: #d9d9d9;
+/* ------------------ ANNOUNCEMENT ------------------ */
+
+.announcements a {
+    position: relative;
+}
+
+.announcements a:hover {
+    text-decoration:underline;
     cursor: pointer;
+}
+
+.single-announcement:hover {
+    background-color: #ededed;
+    cursor:default;
 }
 
 /* ------------------ TRENDING ------------------ */
