@@ -358,24 +358,19 @@ hr {
     border: #b0b0b0 solid 1.8px
 }
 
-.trending-content:hover {
-    background-color: #d9d9d9;
-    cursor: pointer;
+.single-announcement {
+    padding: 5px;
 }
 
-.single-announcement, .trending-content {
-    padding: 5px;
+.announcements a:hover, .trending a:hover {
+    text-decoration:underline;
+    cursor: pointer;
 }
 
 /* ------------------ ANNOUNCEMENT ------------------ */
 
 .announcements a {
     position: relative;
-}
-
-.announcements a:hover {
-    text-decoration:underline;
-    cursor: pointer;
 }
 
 .single-announcement:hover {
@@ -391,6 +386,34 @@ hr {
     grid-auto-flow: column;
     align-items: center;
     gap: 15px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.trending-content:hover {
+    background-color: #ebebeb;
+}
+
+h4 {width: fit-content;}
+
+.trending-content a {
+    cursor: pointer;
+    width: fit-content;
+}
+
+.trending-content span {
+    border-right: black solid 3px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.trending-content span:hover {
+    cursor: pointer;
+    background-color: #000000;
 }
 
 .trending-content:nth-child(1) .profile-picture {
