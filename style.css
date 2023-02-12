@@ -246,7 +246,7 @@ backdrop-filter: invert();
 }
 
 .header-profile-picture, .header .profile-picture {
-    background-image: url(/profile-pictures/main-profile-picture.png);
+    background-image: url(./profile-pictures/main-profile-picture.png);
     background-size: contain;
     border: black solid 2px;
 }
