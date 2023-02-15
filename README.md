@@ -6,8 +6,16 @@
 
 to be done...
 
-# Features
+## Technologies used
 
-## Responsiveness
+- **HTML**
+- **CSS**
+  - Grid layout
+  - Pseudo-classes selectors
+  - Pseudo-elements selectors
+
+## Features
+
+### Responsiveness
 
 ![Responsiveness GIF example](https://github.com/Nicog03/admin-dashboard/blob/main/readme-content/resp.gif)
