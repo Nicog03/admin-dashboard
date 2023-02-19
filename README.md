@@ -4,7 +4,7 @@
 
 ## About the project
 
-to be done...
+This project is a simple recreation of the layout of a simlpe admin dashboard. It was made with the main intent of practicing the usage of CSS (mainly the usage of the grid layout) to create an application with a responsive content display.
 
 ## Technologies used
 
