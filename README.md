@@ -19,3 +19,5 @@ This project is a simple recreation of the layout of a simlpe admin dashboard. I
 ### Responsiveness
 
 ![Responsiveness GIF example](https://github.com/Nicog03/admin-dashboard/blob/main/readme-content/resp.gif)
+
+The interesting thing about the 'responsiveness' on this page is that i didn't use the tag `@media` to create it. It basically works only through the use of the grid layout usage. But the downside is: as i only use the grid layout on the main content of the page, the other contents won't adapt to a smaller screen. So there is still a lot to improve on that aspect.
