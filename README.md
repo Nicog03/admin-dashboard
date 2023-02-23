@@ -40,6 +40,6 @@ Let's be honest: the responsiveness is here, but it's not exactly THAT good, so 
 
 As you can see, the display of the header is a little bit off, specificaly on the chrome browser. This is mainly because chrome renders the `backdrop-filter` property different that firefox does. What ends up happening is what we are able seing in the above screenshot: some sections of the header seems to have no background at all.
 
-_ - So whats the solution?_
+_- So whats the solution?_
 
 Well, what i still plan to do (in a hopefully not far future) is implementing a method, of checking in which browser the page is being rendered on, and depending on the result, the background of those 'defective' sections is changed for an appropriate one.
