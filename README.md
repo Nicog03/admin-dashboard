@@ -31,3 +31,15 @@ As mentioned before, this is a pretty simple project, so it's a little bit hard 
 #### Responsiveness
 
 Let's be honest: the responsiveness is here, but it's not exactly THAT good, so theres a lot to improve in that aspect. I believe that the main objective here is to make this page cross-device responsive, so that we can access it from any device, being it a mobile phone or a desktop.
+
+#### Fix the site on chrome browser
+
+| ![showcase of the header on the chrome browser](https://github.com/Nicog03/admin-dashboard/blob/main/readme-content/header-chrome.png) |
+| :------------------------------------------------------------------------------------------------------------------------------------: |
+|                                    _screenshot of the header being rendered in the chrome browser_                                     |
+
+As you can see, the display of the header is a little bit off, specificaly on the chrome browser. This is mainly because chrome renders the `backdrop-filter` property different that firefox does. What ends up happening is what we are able seing in the above screenshot: some sections of the header seems to have no background at all.
+
+_ - So whats the solution?_
+
+Well, what i still plan to do (in a hopefully not far future) is implementing a method, of checking in which browser the page is being rendered on, and depending on the result, the background of those 'defective' sections is changed for an appropriate one.
