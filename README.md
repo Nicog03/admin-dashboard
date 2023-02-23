@@ -30,4 +30,4 @@ As mentioned before, this is a pretty simple project, so it's a little bit hard 
 
 #### Responsiveness
 
-Let's be honest: the responsiveness is here, but it's not exactly THAT good, so theres a lot to improve in that aspect. I believe that the main objective here is to make this page cross-device responsive, so that we can access it from ant device, being it a mobile phone or a desktop.
+Let's be honest: the responsiveness is here, but it's not exactly THAT good, so theres a lot to improve in that aspect. I believe that the main objective here is to make this page cross-device responsive, so that we can access it from any device, being it a mobile phone or a desktop.
