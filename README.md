@@ -30,7 +30,7 @@ As mentioned before, this is a pretty simple project, so it's a little bit hard 
 
 #### Responsiveness
 
-Let's be honest: the responsiveness is here, but it's not exactly THAT good, so theres a lot to improve in that aspect. I believe that the main objective here is to make this page cross-device responsive, so that we can access it from any device, being it a mobile phone or a desktop.
+Let's be honest: the responsiveness is here, but it's not exactly THAT good, so theres a lot to improve in that aspect. I believe that the main objective here is to **make this page cross-device responsive, so that we can access it from any device, being it a mobile phone or a desktop.**
 
 #### Fix the site on chrome browser
 
@@ -42,4 +42,4 @@ As you can see, the display of the header is a little bit off, specificaly on th
 
 _- So whats the solution?_
 
-Well, what i still plan to do (in a hopefully not far future) is implementing a method, of checking in which browser the page is being rendered on, and depending on the result, the background of those 'defective' sections is changed for an appropriate one.
+Well, what i still plan to do (in a hopefully not far future) is **implementing a method, of checking in which browser the page is being rendered on**, and depending on the result, the background of those 'defective' sections is changed for an appropriate one.
