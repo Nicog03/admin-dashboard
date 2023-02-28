@@ -26,7 +26,7 @@ This project is a simple recreation of the layout of a simlpe admin dashboard. I
   - Pseudo-classes selectors
   - Pseudo-elements selectors
 
-## Features {#features}
+## <a id="features"></a> Features
 
 ### <a id="responsiveness"></a> Responsiveness
 
